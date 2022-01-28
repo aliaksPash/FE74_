@@ -30,12 +30,15 @@
   position: absolute;
   left: 170px;
   top: 42px;
-  border: 3px solid black;
 }
 
 .nav {
   font-size: 14px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 .nav_link {
   display: inline-block;
@@ -69,12 +72,14 @@
 }
 
 /*main_page*/
+.Section_main {
+  background-image: url(../images/First_Section/photo_2022-01-24_14-29-04.jpg);
+}
 .main_page {
   position: relative;
   max-width: 100%;
   max-height: 100%;
   background-size: cover;
-  background-image: url(./images/First_Section/photo_2022-01-24_14-29-04.jpg);
 }
 .title {
   width: 100%;
@@ -82,6 +87,7 @@
   text-align: center;
 }
 .second_title {
+  margin-top: 80px;
   font-size: 48px;
   color: #fff;
   font-family: "Kaushan Script", cursive;
@@ -217,9 +223,12 @@
   transition: opasity 0.3s linear;
 }
 /*statistic_blocks*/
-.Statistic_blocks {
+.section_stat {
   background-color: #95e1d3;
+}
+.Statistic_blocks {
   display: flex;
+  width: auto;
 }
 .blue_blocks {
   padding: 70px 25px;
