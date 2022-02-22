@@ -1240,7 +1240,7 @@ h6 {
   text-align: center;
   color: #2d3033;
 }
-..subscribe__input::placeholder {
+.subscribe__input::placeholder {
   color: #c6cbcd;
 }
 .subscribe__btn {
@@ -1267,8 +1267,6 @@ h6 {
   font-size: 24px;
   font-weight: 700;
   margin: 30px 0;
-}
-.blogs {
 }
 .blogs__item {
   display: flex;
