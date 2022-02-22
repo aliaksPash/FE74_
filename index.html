@@ -17,18 +17,20 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="logo">
-          <div class="header_logo">
-            <img src="./images/MoGo-logo.svg" alt="" />
-          </div>
-          <nav class="nav">
-            <ul class="nav__link__new">
-              <li><a class="nav_link" href="#">About</a></li>
-              <li><a class="nav_link" href="#">service</a></li>
-              <li><a class="nav_link" href="#">work</a></li>
-              <li><a class="nav_link" href="#">blog</a></li>
-              <li><a class="nav_link" href="#">contact</a></li>
-            </ul>
+        <div class="header__inner">
+          <div class="header_logo">MoGo</div>
+            <nav class="nav">
+              <a class="nav_link" href="#">About</a>
+              <a class="nav_link" href="#">service</a>
+              <a class="nav_link" href="#">work</a>
+              <a class="nav_link" href="#">blog</a>
+              <a class="nav_link" href="#">contact</a>
+            <a class="nav_link" href="">
+              <img src="./images/Bean.svg" alt="">
+            </a>
+            <a class="nav_link" href="">
+              <img src="./images/Lupa.svg" alt="">
+            </a>
           </nav>
         </div>
       </div>
@@ -44,25 +46,28 @@
               <h1 class="main_title">Welcome to mogo</h1>
               <a class="button" href="#">Learn more</a>
             </div>
-
-            <div class="main_slides">
-              <div class="slides active">
-                <span class="slides_add">1</span>
-                intro
+          </div>
+        </div>
+        <div class="main_slides">
+          <div class="container">
+            <div class="slides__inner">
+                <div class="slides active">
+                 <span class="slides_add">1</span>
+                 <span class="slides_text">intro</span>
+                </div>
+                <div class="slides">
+                  <span class="slides_add">2</span>
+                  <span class="slides_text">work</span>
+                </div>
+                <div class="slides">
+                  <span class="slides_add">3</span>
+                  <span class="slides_text">about</span>
+                </div>
+                <div class="slides">
+                  <span class="slides_add">4</span>
+                  <span class="slides_text">contacts</span>
+                </div>
               </div>
-              <div class="slides">
-                <span class="slides_add">2</span>
-                work
-              </div>
-              <div class="slides">
-                <span class="slides_add">3</span>
-                about
-              </div>
-              <div class="slides">
-                <span class="slides_add">4</span>
-                contacts
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -263,7 +268,7 @@
             </div>
           </div>
           <div class="accordion_img">
-            <div class="accordion_item"> <img src="./images/What_we_do_Section/unsplash_1lGeOg6IULc.jpg" alt="">
+            <div class="accordion_item"> <img class="accordion__item__img" src="./images/What_we_do_Section/unsplash_1lGeOg6IULc.jpg" alt="">
             </div>
             <div class="accordion_item">
               <div class="accordion__condition">
@@ -272,7 +277,7 @@
                     <img class="accordion__condition__icon" src="./images/What_we_do_Section/Group.svg" alt="">
                     <div class="accordion__condition__title">Photography</div>
                   </div>
-                  <p class="accordion__condition__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ut? Quasi quis voluptatem reprehenderit odit et tempore, minus nisi at, incidunt laborum accusamus similique consectetur dicta magni laboriosam earum mollitia perspiciatis magnam blanditiis dolorum soluta animi aperiam. Ratione velit ut tempore maxime ullam iusto cupiditate commodi ipsum labore ea eligendi quis, obcaecati at voluptate hic voluptas officia aspernatur. Lorem ipsum dolor sit. Lorem, ipsum dolor.
+                  <p class="accordion__condition__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eros, nunc, rhoncus, id tincidunt tellus rhoncus ornare. Amet, et elementum enim mattis. Purus volutpat sagittis ut adipiscing congue euismod sit enim fringilla. Proin viverra nibh in vel ut pulvinar nec senectus. Justo, id ac facilisis fringilla fermentum sed nunc aenean.
                   </p>
                 </div>
                 <div class="accordion__condition__item">
@@ -684,8 +689,113 @@
         </div>
       </section>
     </main>
+
+
     <footer class="footer">
-      <div class="container"></div>
+
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__fol footer__fol--first">
+            <div class="footer__logo">MoGo</div>
+            <div class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis proin varius vitae leo eget tincidunt duis amet. Et amet dis vel imperdiet volutpat mauris est leo cursus.
+            </div>
+            <div class="footer__social">
+              <div class="footer__social__header">
+                <b>15K</b> followers
+              </div>
+              <div class="footer__social__content">
+                Follow us
+                <a href="#" target="blank"><img src="./images/footer/Vector_facebook.svg" alt="">
+                </a>
+                <a href="#" target="blank"><img src="./images/footer/Vector_twitter.svg" alt="">
+                </a>
+                <a href="#" target="blank"><img src="./images/footer/Group_Inst.svg" alt="">
+                </a>
+                <a href="#" target="blank"><img src="./images/footer/Vector_pinterest.svg" alt="">
+                </a>
+                <a href="#" target="blank"><img src="./images/footer/Vector_linkedin.svg" alt="">
+                </a>
+                <a href="#" target="blank"><img src="./images/footer/Group_tube.svg" alt="">
+                </a>
+                <a href="#" target="blank"><img src="./images/footer/Vector_ball.svg" alt="">
+                </a>
+                <a href="#" target="blank"><img src="./images/footer/Vector_key.svg" alt="">
+                </a>
+              </div>
+            </div>
+            <form class="subscribe" action="/">
+              <input class="subscribe__input" type="email" name="name" placeholder="Your Email">
+              <button class="subscribe__btn" type="submit">Subscribe</button>
+            </form>
+          </div>
+            <div class="footer__fol footer__fol--second">
+              <div class="footer__title">blogs</div>
+
+              <div class="blogs">
+                <div class="blogs__item">
+                  <img class="blogs__img" src="./images/footer/Images_2/unsplash_5fNmWej4tAA.jpg" alt="">
+                  <div class="blogs__item__content">
+                    <a class="blogs__title" href="#">Lorem ipsum.</a>
+                    <div class="blogs__date">jan.9.22.15
+                    </div>
+                  </div>
+                </div>
+                <div class="blogs__item">
+                  <img class="blogs__img" src="./images/footer/Images_2/unsplash_IrRbSND5EUc.jpg" alt="">
+                  <div class="blogs__item__content">
+                    <a class="blogs__title" href="#">Lorem ipsum.</a>
+                    <div class="blogs__date">jan.9.22.15
+                    </div>
+                  </div>
+                </div>
+                <div class="blogs__item">
+                  <img class="blogs__img" src="./images/footer/Images_2/unsplash_iusJ25iYu1c.jpg" alt="">
+                  <div class="blogs__item__content">
+                    <a class="blogs__title" href="#">Lorem ipsum.</a>
+                    <div class="blogs__date">jan.9.22.15
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>  
+            <div class="footer__fol footer__fol--third">
+              <div class="footer__title">instagram</div>
+              <div class="instagram">
+                <a class="instagram__item" href="" target="blank">
+                  <img src="./images/footer/Images_3/unsplash_z3htkdHUh5w.jpg" alt="">
+                </a>
+                <a class="instagram__item" href="" target="blank">
+                  <img src="./images/footer/Images_3/unsplash_3fPXt37X6UQ.jpg" alt="">
+                </a>
+                <a class="instagram__item" href="" target="blank">
+                  <img src="./images/footer/Images_3/unsplash_aWf7mjwwJJo.jpg" alt="">
+                </a>
+                <a class="instagram__item" href="" target="blank">
+                  <img src="./images/footer/Images_3/unsplash_7e2pe9wjL9M.jpg" alt="">
+                </a>
+                <a class="instagram__item" href="" target="blank">
+                  <img src="./images/footer/Images_3/unsplash_PhYq704ffdA.jpg" alt="">
+                </a>
+                <a class="instagram__item" href="" target="blank">
+                  <img src="./images/footer/Images_3/unsplash_hpjSkU2UYSU.jpg" alt="">
+                </a>
+                <a class="instagram__item" href="" target="blank">
+                  <img src="./images/footer/Images_3/unsplash_jjhvyxm34nY.jpg" alt="">
+                </a>
+                <a class="instagram__item" href="" target="blank">
+                  <img src="./images/footer/Images_3/unsplash_g1Kr4Ozfoac.jpg" alt="">
+                </a>
+                <a class="instagram__item" href="" target="blank">
+                  <img src="./images/footer/Images_3/unsplash_8YG31Xn4dSw.jpg" alt="">
+                </a>
+              </div>
+            </div>
+        </div>
+        <div class="copyright">
+          Copyright © 2021 mogo. All Rights Reserved
+        </div>
+      </div>
     </footer>
   </body>
 </html>
