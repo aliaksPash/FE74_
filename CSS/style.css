@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  width: 0 auto;
   padding: 0;
 }
 body {
@@ -96,7 +95,6 @@ h6 {
   background: url(../images/First_Section/photo_2022-01-24_14-29-04.jpg) center
     no-repeat;
   background-size: cover;
-  width: 100%;
   height: 100vh;
   position: relative;
 }
@@ -282,34 +280,7 @@ h6 {
   transform: translateY(-35%);
   transition: opasity 0.3s linear;
 }
-@media (max-width: 1024px) {
-  .what-title {
-    font-size: 24px;
-  }
-  .what-second-title {
-    font-size: 24px;
-  }
-}
-@media (max-width: 768px) {
-  .section-what {
-    padding-top: 40px;
-  }
-  .what-title {
-    font-size: 24px;
-  }
-  .what-second-title {
-    font-size: 24px;
-  }
-  .what-text {
-    font-size: 14px;
-  }
-  .what-img {
-    width: 100%;
-    max-width: 480px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
+
 /*statistic_blocks*/
 
 .section_stat {
@@ -341,22 +312,7 @@ h6 {
   font-size: 24px;
   text-transform: uppercase;
 }
-@media (max-width: 1024px) {
-}
-@media (max-width: 768px) {
-  .blue_blocks {
-    width: 100%;
-    justify-content: center;
-    flex: none;
-    width: 40%;
-    border: none;
-    border-bottom: 1px solid #fff;
-  }
-  .blue_blocks:last-child {
-    border-right: none;
-    margin-left: 25%;
-  }
-}
+
 /*We work with*/
 
 .section-work {
@@ -413,38 +369,7 @@ h6 {
   font-weight: 400;
   color: #2d3033;
 }
-@media (max-width: 1024px) {
-  .work-title {
-    font-size: 24px;
-  }
-  .work-second-title {
-    font-weight: 900;
-    font-size: 18px;
-  }
-  .work-services-title {
-    font-weight: 700;
-    font-size: 24px;
-  }
-  .work-services-text {
-    font-size: 14px;
-  }
-}
-@media (max-width: 768px) {
-  .work-title {
-    font-size: 24px;
-  }
-  .work-second-title {
-    font-weight: 900;
-    font-size: 18px;
-  }
-  .work-services-title {
-    font-weight: 700;
-    font-size: 18px;
-  }
-  .work-services-text {
-    font-size: 14px;
-  }
-}
+
 /*Section Devices*/
 
 .section__devices {
@@ -491,30 +416,6 @@ h6 {
   bottom: -80px;
   right: -140px;
   z-index: 1;
-}
-@media (max-width: 1024px) {
-  .devices__title {
-    font-size: 24px;
-  }
-  .devices__second__title {
-    font-size: 24px;
-  }
-}
-@media (max-width: 768px) {
-  .devices__title {
-    font-size: 30px;
-  }
-  .devices__second__title {
-    font-size: 36px;
-  }
-  .devices__img {
-    max-width: 320px;
-  }
-  .devices__item--iphone {
-    width: 110px;
-    bottom: -80px;
-    right: -25px;
-  }
 }
 
 /* Section with accordion*/
@@ -610,24 +511,6 @@ h6 {
   max-width: 100%;
   height: auto;
 }
-@media (max-width: 1024px) {
-  .accordion__title {
-    font-size: 24px;
-  }
-  .accordion__second__title {
-    font-size: 24px;
-  }
-}
-@media (max-width: 768px) {
-  .accordion__title {
-    font-size: 24px;
-  }
-  .accordion__second__title {
-    font-size: 24px;
-  }
-  .accordion__item__img {
-  }
-}
 
 /*Section_comment*/
 
@@ -701,35 +584,7 @@ h6 {
   right: 0;
   transform: rotate(135deg);
 }
-@media (max-width: 1024px) {
-  .reviews__text {
-    font-size: 18px;
-  }
-  .reviews__author {
-    font-size: 24px;
-  }
-  .reviews__author::before {
-    width: 47px;
-  }
-}
-@media (max-width: 768px) {
-  .reviews__text {
-    font-size: 14px;
-    margin-bottom: 5px;
-  }
-  .reviews__author {
-    font-size: 18px;
-  }
-  .reviews__author::before {
-    width: 47px;
-  }
-  .reviews__img {
-    display: none;
-  }
-  .reviews__item {
-    padding-left: 10px;
-  }
-}
+
 /*Team Section*/
 .section__team {
   padding-top: 80px;
@@ -1121,6 +976,8 @@ h6 {
   padding-top: 80px;
   display: flex;
   padding-bottom: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .clients {
   margin-bottom: 48px;
